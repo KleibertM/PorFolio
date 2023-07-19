@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Kaushan+Script&family=Spectral:wght@300&family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Charm:wght@400;700&family=Kaushan+Script&family=Lobster+Two:ital@1&family=Spectral:wght@300&family=Tektur&display=swap');
+.container{
+    position: relative;
+    width: auto;
+    max-width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    gap: 15px;
+    padding: 20px;
+    
+}
+
+h1, h2, h3, h4, h5, h6, button{
+    font-family: 'Belanosima', sans-serif;
+}
+p {
+    font-family: 'Charm', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Spectral', serif;
+    font-family: 'Tektur', cursive;
+}
+.container .box-book {
+    width: 275px;
+    height: auto;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    float: left;
+    background-color: var(--sidebar-color);
+    border-radius: 15px;
+    background-color: white;
+    gap: 15px;
+}
+
+.container .box-book:hover {
+    transform: translate(-15px);
+    box-shadow: 0 42px 76px rgba(0, 0, 0, 0.2);
+}
+
+.container .box-book img {
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+#pills-home{
+    background: rgb(10,65,173);
+    background: radial-gradient(circle, rgba(10,65,173,1) 0%, rgba(13,205,255,1) 0%, rgba(10,65,173,1) 100%);
+}
+
+.banner {
+    background: rgba(255, 255, 255, .3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgba(209, 213, 219, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#pills-profile {
+    background: rgb(13,205,255);
+    background: radial-gradient(circle, rgba(13,205,255,1) 0%, rgba(10,65,173,1) 0%, rgba(13,205,255,1) 100%);
+}
+.bxl-github:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(2);
+}
+.bxs-conversation:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(2);
+}
+.bxl-facebook:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(2);
+}
+.bxl-tiktok:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(2);
+}
+.bxl-instagram:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(2);
+}
+.bxl-gmail:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(2);
+}
+.bxs-navigation:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(2);
+}
+
+.container-cont{
+    position: relative;
+    width: auto;
+    max-width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    gap: 55px;
+    padding: 20px;
+    
+}
+
+.container-cont .box-book {
+    width: 40%;
+    height: auto;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    float: left;
+    background-color: var(--sidebar-color);
+    border-radius: 15px;
+    background-color: white;
+    gap: 15px;
+    line-height: 30vh;
+}
+
+.container-cont .box-book:hover {
+    transform: translate(-15px);
+    box-shadow: 0 42px 76px rgba(0, 0, 0, 0.2);
+}
+.container-cont .box-book img {
+    width: 40%;
+    margin-top: 10px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+#pills-contact {
+    height: 100vh;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(4,67,125,1) 100%);
+}
+#contrato{
+    font-size: 2rem;
+}
+
+#contrato:hover {
+    transition: all .5s ease-in-out;
+}
+
+ul li {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-brand {
+    left: 10%;
+}
+
+@media screen and (max-width:420px) {
+
+    ul li {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .container-cont{
+        position: relative;
+        display:  flex;
+        flex-direction: column;
+        
+    }
+    .container-cont .box-book{
+        height: auto;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container-cont .contass {
+        height: 400px;
+        position: relative;
+    }
+    #contrato{
+        position: absolute;
+        width: 70%;
+        font-size:  1.5rem;
+        justify-content: center;
+        left: 15%;
+    }
+    .link-s {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:690px){
+    ul li {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .container-cont{
+        position: relative;
+        display:  flex;
+        flex-direction: column;
+        
+    }
+    .container-cont .box-book{
+        height: auto;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container-cont .contass {
+        height: 450px;
+        position: relative;
+    }
+    #contrato{
+        position: absolute;
+        width: 70%;
+        font-size:  1.5rem;
+        justify-content: center;
+        left: 15%;
+    }
+    .link-s {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+    }
+}
