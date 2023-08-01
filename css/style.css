@@ -67,33 +67,17 @@ p {
     background: rgb(13,205,255);
     background: radial-gradient(circle, rgba(13,205,255,1) 0%, rgba(10,65,173,1) 0%, rgba(13,205,255,1) 100%);
 }
-.bxl-github:hover {
+
+.bx:hover {
     transition: all .3s ease-in-out;
     transform: scale(2);
+    color: white;  
 }
-.bxs-conversation:hover {
-    transition: all .3s ease-in-out;
-    transform: scale(2);
-}
-.bxl-facebook:hover {
-    transition: all .3s ease-in-out;
-    transform: scale(2);
-}
-.bxl-tiktok:hover {
-    transition: all .3s ease-in-out;
-    transform: scale(2);
-}
-.bxl-instagram:hover {
-    transition: all .3s ease-in-out;
-    transform: scale(2);
-}
-.bxl-gmail:hover {
-    transition: all .3s ease-in-out;
-    transform: scale(2);
-}
-.bxs-navigation:hover {
-    transition: all .3s ease-in-out;
-    transform: scale(2);
+
+a:hover{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(4,67,125,1) 100%);
+    color: white;  
 }
 
 .container-cont{
@@ -125,6 +109,13 @@ p {
     line-height: 30vh;
 }
 
+.animate__backOutLeft a:hover{
+    
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(4,67,125,1) 100%);
+    color: white;
+}
+
 .container-cont .box-book:hover {
     transform: translate(-15px);
     box-shadow: 0 42px 76px rgba(0, 0, 0, 0.2);
@@ -149,9 +140,24 @@ p {
     transition: all .5s ease-in-out;
 }
 
+.form-cont{
+    margin: 15px;
+}
+
 ul li {
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+.link-s {
+    justify-content: center;
+}
+
+
+.link-s a:hover{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(4,67,125,1) 100%);
+    color: white;
 }
 
 .navbar-brand {
